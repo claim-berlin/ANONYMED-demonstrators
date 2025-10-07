@@ -1,0 +1,3 @@
+[submodule "xmodality"]
+	path = xmodality
+	url = https://github.com/alexander-koch/xmodality
