@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# Project Rocinante
-
 import os
 os.environ["XLA_FLAGS"] = "--xla_gpu_deterministic_ops=true"
 
@@ -25,21 +23,14 @@ import cloudpickle
 import pickle
 import utils
 import h5py
-from dataset import SliceDS#, SingleSliceDS
+from dataset import SliceDS
 from sampling import q_sample, right_pad_dims_to, simple_ddpm_sample, simple_ddpm_sample_with_mask, simple_repaint, logsnr_schedule_cosine, ddim_sample
-#from unet import UNet
-#from dit import DiT
-#from adm import ADM
-#from uvit import UViT
 from mlp_mixer import MLPMixer
 from lr import create_learning_rate_schedule
-#from adam_atan2 import adamw_atan2
 import dm_pix as pix
-#from dit_google import get_b16_model, interpolate_posembed
 from dp_accounting import dp_event
 from dp_accounting import rdp
 from diff_private_opts import dp_rmsprop, dp_adam
-#from hungarian_cover import hungarian_cover_tpu_matcher
 from jax_tqdm import loop_tqdm
 
 class SingleSliceDS:

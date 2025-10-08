@@ -6,6 +6,8 @@
 * large batch sizes (≥ 2048), constant learning rate, 1e−4, 32 × 32 image resolution
 * so far: DP-SGD, DP-ADAM, L2 norm grad clip 1, noise multiplier 1.3, δ= 1e−6, account ε until target is reached
 
+![example](./out.png)
+
 # Run
 
 ```bash
