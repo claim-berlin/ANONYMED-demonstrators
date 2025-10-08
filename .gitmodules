@@ -1,3 +1,6 @@
 [submodule "xmodality"]
 	path = xmodality
 	url = https://github.com/alexander-koch/xmodality
+[submodule "stylegan"]
+	path = stylegan
+	url = https://github.com/claim-berlin/3D_StyleGAN_Circle_of_Willis.git
