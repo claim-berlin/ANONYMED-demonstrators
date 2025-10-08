@@ -11,3 +11,7 @@
 ```bash
 python3 train_unconditional_dp_atlas.py --sample --bfloat16 --arch mlp --load ../weights/atlas_dp.pkl
 ```
+
+# License
+
+Copyright (c) Alexander Koch 2025
