@@ -6,6 +6,14 @@
 
 Each subfolder contains a README detailing the installation and usage of the tools.
 
+# Install
+
+```bash
+git clone https://github.com/claim-berlin/ANONYMED-demonstrators.git
+cd ANONYMED-demonstrators
+git submodule update --init --recursive
+```
+
 # xmodality
 
 Takes an unprocessed TOF-MRA image (normal MR range) and returns a CT in [-50,350] windowed range.
