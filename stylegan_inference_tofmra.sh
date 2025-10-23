@@ -5,7 +5,7 @@ PY="./TOF_MRA_generation/generate_TOF_MRA_with_3D_styleGAN.py"
 
 TRUNCATION_PSI="${1:-1}"
 NUM_VOLUMES="${2:-1}"
-OUTPUT_DIR="${3:-./tof_mra_output}"
+OUTPUT_DIR="${3:-./output_tof_mra}"
 
 python3 "$PY" \
   --truncation-psi "$TRUNCATION_PSI" \
