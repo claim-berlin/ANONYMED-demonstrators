@@ -31,9 +31,9 @@ Generates a 3D 256x256x4 cerebral TOF-MRA volume centered on the Circle of Willi
 - Place model weights here: ./TOF_MRA_generation/models/256_256_4/model_17.pt
 
 ## Environment
-- Create environment for StyleGAN:
-conda env create -f environment_styleGAN.yml
-conda activate StyleGAN_CoW_3D_anonymed
+- Create environment for StyleGAN:   
+conda env create -f environment_styleGAN.yml   
+conda activate StyleGAN_CoW_3D_anonymed   
   
 
 ## Usage
@@ -80,9 +80,9 @@ Takes an unprocessed --- real or synthetic --- TOF-MRA image (normal MR range) a
 - Place model weights here: ./dit.safetensors
 
 ## Environment
-- Create environment for cross modality from TOF-MRA to CTA:
-conda env create -f environment_xmodality.yml
-conda activate xmodality_anonymed
+- Create environment for cross modality from TOF-MRA to CTA:  
+conda env create -f environment_xmodality.yml   
+conda activate xmodality_anonymed   
 
 ## Usage
 Run multiple at once:
