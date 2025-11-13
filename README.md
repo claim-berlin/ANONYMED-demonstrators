@@ -1,10 +1,10 @@
-# Projects
+# ANONY-MED DEMONSTRATORS
 
-* `diff_private` - differential privacy 2d generative model example on 32x32 atlas slices
-* `xmodality` - tof-mra to cta diffusion translation
-* `stylegan` - 3d stylegan network
+# Use-cases
 
-Each subfolder contains a README detailing the installation and usage of the tools.
+* 'Stroke': Generation of synthetic Time-of-flight MR Angiography (TOF-MRA) imaging, Cross-modality synthesis of CT Angiographic imaging from TOF-MRA, Differentially private generation of T1w MRI images.
+* 'Cardiology': TBA
+* 'Radiology reports': TBA
 
 # Install
 
@@ -14,9 +14,3 @@ cd ANONYMED-demonstrators
 git submodule update --init --recursive
 ```
 
-# DEMONSTRATOR SUMMARY 
-After configuring the environments and downloading model weights:
-- Generate synthetic 3D TOF MRA volume, minimal code for demonstration in [local_stylegan](./local_stylegan/).
-- Convert the synthetic TOF MRA to CTA, minimal code for demonstration in [local_xmodality](./local_xmodality/).
-- ......... RELICT-NI ..........
-- ......... Differential privacy ............. 
