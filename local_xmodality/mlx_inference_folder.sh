@@ -7,6 +7,5 @@ for file in "$1"/*
 do
     outfile="output_CTA/${file##*/}"
     echo "$file -> $outfile"
-
-    python3 xmodality/resampled_inference.py --input $file --output $outfile --load $weights --arch dit --bfloat16
+    python3 xmodality/mlx_inference.py --load $weights --input $file --output $outfile --num_sample_steps $num_steps
 done

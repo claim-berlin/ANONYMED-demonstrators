@@ -20,7 +20,7 @@ https://doi.org/10.1016/j.neuroimage.2024.120936.
 # CONFIG ---
 # Model weights file should be placed inside {top_dir)/models/{project_name}/model_{epoch}.pt :
 # Example model_path = "./models/256_256_4/model_17.pt"
-top_dir = "./TOF_MRA_generation"
+top_dir = "./local_stylegan"
 project_name = "256_256_4"
 epoch = 17
 
@@ -35,7 +35,7 @@ num_volumes = 1
 truncation_psi = 1.0
 
 # Template NIfTI for affine and voxel spacing
-template_path = "./TOF_MRA_generation/sample_data/TOF_template_NITRC_BET.nii.gz"
+template_path = "./local_stylegan/sample_data/TOF_template_NITRC_BET.nii.gz"
 
 # Output directory and filename
 filename_prefix = "TOF_MRA"
