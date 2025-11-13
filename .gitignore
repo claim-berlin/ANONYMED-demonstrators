@@ -1,2 +1,8 @@
 __pycache__
 *.pyc
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+stylegan
+xmodality
