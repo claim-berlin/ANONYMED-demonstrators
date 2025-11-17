@@ -1,6 +1,9 @@
 [submodule "xmodality"]
-	path = xmodality
+	path = 1_STROKE/1_DATA_SYNTHESIS/TOF-to-CTA-conversion
 	url = https://github.com/alexander-koch/xmodality
 [submodule "stylegan"]
-	path = stylegan
+	path = 1_STROKE/1_DATA_SYNTHESIS/TOF-MRA-synthesis
 	url = https://github.com/claim-berlin/3D_StyleGAN_Circle_of_Willis.git
+[submodule "2_Evaluation/Stroke_usecase/Replica-detection"]
+	path = 1_STROKE/2_EVALUATION/Replica-detection
+	url = https://github.com/claim-berlin/relict
