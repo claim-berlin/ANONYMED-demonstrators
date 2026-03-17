@@ -1,15 +1,17 @@
 # Projects
 
-* `diff_private` - differential privacy 2d generative model example on 32x32 atlas slices
-* `xmodality` - tof-mra to cta diffusion translation
-* `stylegan` - 3d stylegan network
+This Demonstrator showcases 3
+
+* `Cross-modality synthesis` - TOF-MRA to CTA translation using diffusion models.
+* `Circle of Willis generation` - TOF-MRA generation centered on the Circle of Willis using 3D StyleGANv2 network
+* `Differentially Private Image generation` - Differential privacy integrated into a 2D generative model
 
 
 # Synthetic TOF MRA generation
 Generates a 3D 256x256x4 cerebral TOF-MRA volume centered on the Circle of Willis. The voxel spacing is 0.62x062x0.62 millimeters. Local root for demonstrator scripts: [local_stylegan](./local_stylegan/).
 
 ## Model weights
-- Download model weights from: .......................
+- Download model weights from: [Zenodo link](https://zenodo.org/records/19070734?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdmMzA5NzQ2LWUyNjUtNGYyNC05ZDczLWVkNWFlMTU2ZDAyMCIsImRhdGEiOnt9LCJyYW5kb20iOiI3OWU2YjA2MDk3YTRjMjhlM2FlYTVjMjg2MmVmMjcwZSJ9.2u_UcDGSa7f7DKYk8EXTI71qvMo1pwhTZX_hGkPQSNy-6EPfE-UmmgdB4kaMYUc9WufI-fscp31C1RDPyka5YQ)
 - Place model weights here: ./local_stylegan/models/256_256_4/model_17.pt
 
 ## Environment
