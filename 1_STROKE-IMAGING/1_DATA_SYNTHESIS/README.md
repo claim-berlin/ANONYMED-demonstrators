@@ -1,6 +1,6 @@
 # Projects
 
-This Demonstrator showcases 3
+This part of the Stroke Imaging Demonstrator showcases 3 data synthesis methods:
 
 * `Cross-modality synthesis` - TOF-MRA to CTA translation using diffusion models.
 * `Circle of Willis generation` - TOF-MRA generation centered on the Circle of Willis using 3D StyleGANv2 network
@@ -60,7 +60,7 @@ This repository implements the methodology described in:
 
 Aydin, Orhun Utku, Adam Hilbert, Alexander Koch, Felix Lohrke, Jana Rieger, Satoru Tanioka, and Dietmar Frey. “Generative Modeling of the Circle of Willis Using 3D-StyleGAN.” NeuroImage, November 23, 2024, 120936. https://doi.org/10.1016/j.neuroimage.2024.120936.
 
-Link to full repository can be found at [stylegan](./stylegan/).
+Link to full repository can be found at [3D-StyleGAN-CoW](./3D-StyleGAN-CoW).
 
 # xmodality
 
@@ -110,7 +110,7 @@ This repository implements the methodology described in:
 
 Alexander Koch, Aydin, Orhun Utku, Adam Hilbert, Jana Rieger, Satoru Tanioka, Fujimaro Ishida and Dietmar Frey. “Cross-modality image synthesis from TOF-MRA to CTA using diffusion-based models.” Medical Image Analysis, October, 2025, 103722. https://doi.org/10.1016/j.media.2025.103722.
 
-Link to full repository can be found at [xmodality](./xmodality/).
+Link to full repository can be found at [TOF-to-CTA-conversion](./TOF-to-CTA-conversion/).
 
 ### Example synthetic TOF (left) and converted synthetic CTA (right)
 
