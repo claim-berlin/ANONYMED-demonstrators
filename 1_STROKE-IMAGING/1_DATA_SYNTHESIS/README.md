@@ -2,12 +2,12 @@
 
 This part of the Stroke Imaging Demonstrator showcases 3 data synthesis methods:
 
-* `Cross-modality synthesis` - TOF-MRA to CTA translation using diffusion models.
-* `Circle of Willis generation` - TOF-MRA generation centered on the Circle of Willis using 3D StyleGANv2 network
+* `3D Circle of Willis generation` - TOF-MRA generation centered on the Circle of Willis using 3D StyleGANv2 network
+* `TOF-to-CTA conversion` - Cross-modality synthesis using diffusion models.
 * `Differentially Private Image generation` - Differential privacy integrated into a 2D generative model
 
 
-# Synthetic TOF MRA generation
+# 3D Circle of Willis generation
 Generates a 3D 256x256x4 cerebral TOF-MRA volume centered on the Circle of Willis. The voxel spacing is 0.62x062x0.62 millimeters. Local root for demonstrator scripts: [local_stylegan](./local_stylegan/).
 
 ## Model weights
@@ -62,7 +62,7 @@ Aydin, Orhun Utku, Adam Hilbert, Alexander Koch, Felix Lohrke, Jana Rieger, Sato
 
 Link to full repository can be found at [3D-StyleGAN-CoW](./3D-StyleGAN-CoW).
 
-# xmodality
+# TOF-to-CTA conversion
 
 Takes an unprocessed --- real or synthetic --- TOF-MRA image (normal MR range) and returns a CT in [-50,350] windowed range. Local root for demonstrator scripts: [local_xmodality](./local_xmodality/).
 
@@ -115,3 +115,6 @@ Link to full repository can be found at [TOF-to-CTA-conversion](./TOF-to-CTA-con
 ### Example synthetic TOF (left) and converted synthetic CTA (right)
 
 ![Example_TOF_and_CTA](./images/TOF_CTA_example.jpg)
+
+# Differentially Private Image generation
+Description of this method can be found in the local repository at: [DP image generation](./diff_private/).
