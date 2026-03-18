@@ -7,3 +7,6 @@
 [submodule "2_Evaluation/Stroke_usecase/Replica-detection"]
 	path = 1_STROKE/2_EVALUATION/Replica-detection
 	url = https://github.com/claim-berlin/relict
+[submodule "2-3_CARDIO-RADIOLOGY-REPORTS/Tabular_demonstrator"]
+	path = 2-3_CARDIO-RADIOLOGY-REPORTS/Tabular_demonstrator
+	url = https://github.com/arthur-r-menezes/tabular-demonstrator.git
