@@ -1,9 +1,12 @@
-[submodule "xmodality"]
-	path = 1_STROKE/1_DATA_SYNTHESIS/TOF-to-CTA-conversion
-	url = https://github.com/alexander-koch/xmodality
-[submodule "stylegan"]
-	path = 1_STROKE/1_DATA_SYNTHESIS/TOF-MRA-synthesis
-	url = https://github.com/claim-berlin/3D_StyleGAN_Circle_of_Willis.git
-[submodule "2_Evaluation/Stroke_usecase/Replica-detection"]
-	path = 1_STROKE/2_EVALUATION/Replica-detection
+[submodule "Replica-detection"]
+	path = 1_STROKE-IMAGING/2_EVALUATION/Replica-detection
 	url = https://github.com/claim-berlin/relict
+[submodule "2-3_CARDIO-RADIOLOGY-REPORTS/Tabular_demonstrator"]
+	path = 2-3_CARDIO-RADIOLOGY-REPORTS/Tabular_demonstrator
+	url = https://github.com/arthur-r-menezes/tabular-demonstrator.git
+[submodule "1_STROKE-IMAGING/1_DATA_SYNTHESIS/TOF-to-CTA-conversion"]
+	path = 1_STROKE-IMAGING/1_DATA_SYNTHESIS/TOF-to-CTA-conversion
+	url = https://github.com/alexander-koch/xmodality
+[submodule "1_STROKE-IMAGING/1_DATA_SYNTHESIS/3D-StyleGAN-CoW"]
+	path = 1_STROKE-IMAGING/1_DATA_SYNTHESIS/3D-StyleGAN-CoW
+	url = https://github.com/claim-berlin/3D_StyleGAN_Circle_of_Willis

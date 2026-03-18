@@ -1,15 +1,17 @@
 # Projects
 
-* `diff_private` - differential privacy 2d generative model example on 32x32 atlas slices
-* `xmodality` - tof-mra to cta diffusion translation
-* `stylegan` - 3d stylegan network
+This part of the Stroke Imaging Demonstrator showcases 3 data synthesis methods:
+
+* `3D Circle of Willis generation` - TOF-MRA generation centered on the Circle of Willis using 3D StyleGANv2 network
+* `TOF-to-CTA conversion` - Cross-modality synthesis using diffusion models.
+* `Differentially Private Image generation` - Differential privacy integrated into a 2D generative model
 
 
-# Synthetic TOF MRA generation
+# 3D Circle of Willis generation
 Generates a 3D 256x256x4 cerebral TOF-MRA volume centered on the Circle of Willis. The voxel spacing is 0.62x062x0.62 millimeters. Local root for demonstrator scripts: [local_stylegan](./local_stylegan/).
 
 ## Model weights
-- Download model weights from: .......................
+- Download model weights from: [Zenodo link](https://zenodo.org/records/19070734?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdmMzA5NzQ2LWUyNjUtNGYyNC05ZDczLWVkNWFlMTU2ZDAyMCIsImRhdGEiOnt9LCJyYW5kb20iOiI3OWU2YjA2MDk3YTRjMjhlM2FlYTVjMjg2MmVmMjcwZSJ9.2u_UcDGSa7f7DKYk8EXTI71qvMo1pwhTZX_hGkPQSNy-6EPfE-UmmgdB4kaMYUc9WufI-fscp31C1RDPyka5YQ)
 - Place model weights here: ./local_stylegan/models/256_256_4/model_17.pt
 
 ## Environment
@@ -58,9 +60,9 @@ This repository implements the methodology described in:
 
 Aydin, Orhun Utku, Adam Hilbert, Alexander Koch, Felix Lohrke, Jana Rieger, Satoru Tanioka, and Dietmar Frey. “Generative Modeling of the Circle of Willis Using 3D-StyleGAN.” NeuroImage, November 23, 2024, 120936. https://doi.org/10.1016/j.neuroimage.2024.120936.
 
-Link to full repository can be found at [stylegan](./stylegan/).
+Link to full repository can be found at [3D-StyleGAN-CoW](./3D-StyleGAN-CoW).
 
-# xmodality
+# TOF-to-CTA conversion
 
 Takes an unprocessed --- real or synthetic --- TOF-MRA image (normal MR range) and returns a CT in [-50,350] windowed range. Local root for demonstrator scripts: [local_xmodality](./local_xmodality/).
 
@@ -108,8 +110,11 @@ This repository implements the methodology described in:
 
 Alexander Koch, Aydin, Orhun Utku, Adam Hilbert, Jana Rieger, Satoru Tanioka, Fujimaro Ishida and Dietmar Frey. “Cross-modality image synthesis from TOF-MRA to CTA using diffusion-based models.” Medical Image Analysis, October, 2025, 103722. https://doi.org/10.1016/j.media.2025.103722.
 
-Link to full repository can be found at [xmodality](./xmodality/).
+Link to full repository can be found at [TOF-to-CTA-conversion](./TOF-to-CTA-conversion/).
 
 ### Example synthetic TOF (left) and converted synthetic CTA (right)
 
 ![Example_TOF_and_CTA](./images/TOF_CTA_example.jpg)
+
+# Differentially Private Image generation
+Description of this method can be found in the local repository at: [DP image generation](./diff_private/).
