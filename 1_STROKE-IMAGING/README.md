@@ -1,4 +1,4 @@
-# Projects
+# Stroke Image Generation Demonstrator (ANONY-MED UseCase 1)
 
 This Demonstrator showcases 3 Data Synthesis and 2 Evaluation sub-projects, developed for the Stroke use case in ANONY-MED. The repository follows the structure depicted on the figure.
 
